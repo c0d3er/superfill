@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle superfill",
+        "command": "superfill:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "superfill",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "superfill:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
